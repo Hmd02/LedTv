@@ -20,7 +20,7 @@ function App() {
 
   useEffect(()=>
     {
-      fetch("https://led-tv-server.vercel.app/products")
+      fetch("https://led-tv-server.vercel.app/")
       .then((res)=>res.json())
       .then((data)=>
       {
