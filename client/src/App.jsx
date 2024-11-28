@@ -20,7 +20,7 @@ function App() {
 
   useEffect(()=>
     {
-      fetch("http://127.0.0.1:8000/products")
+      fetch("https://led-tv-server.vercel.app/products")
       .then((res)=>res.json())
       .then((data)=>
       {
